@@ -1,0 +1,12 @@
+1. Create a folder named 'Automation' in your computer.
+2. create 4 more folders inside the Automation folder
+    > Browser drivers
+    > Jar Files
+    > Notes
+    > Maven
+
+
+3. Open cmd [Windows key + R] and type cmd and people using mac just open terminal
+     - u can also use powershell
+
+4. In the command promt type java -version

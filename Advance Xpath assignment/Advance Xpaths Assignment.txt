@@ -1,0 +1,176 @@
+1) https://amazon.com
+    Web Element: Amazon Logo
+
+
+1.//div[@id='a-page']/child::div[@id='navbar-backup-backup']/child::div[@class='nav-bb']/child::div[@class='nav-bb-left']/descendant::a
+2.//div[@id='a-page']/descendant::a[@id='nav-bb-logo']
+3.//div[@id='a-page']/child::div[@id='navbar-backup-backup']/child::div[@class='nav-bb']/child::div[@class='nav-bb-left']/child::a[@id='nav-bb-logo']
+4.//div[@id='a-page']/child::div[@id='navbar-backup-backup']/child::div[@class='nav-bb']/child::div[@class='nav-bb-left']/child::a
+5.//div[@id='a-page']/descendant::a[1]
+6.//div[@id='be']/preceding-sibling::footer[@class='nav-bb-footer']/preceding-sibling::div[@id='pageContent']/preceding::a[4]
+7.//div[@id='be']/preceding-sibling::footer[@class='nav-bb-footer']/preceding-sibling::div[@id='pageContent']/preceding::a[@id='nav-bb-logo']
+8.//div[@id='be']/preceding::a[31]
+9.//div[@id='be']/preceding::a[@id='nav-bb-logo']
+10.//div[@id='a-page']/descendant::div[@id='navbar-backup-backup']/descendant::div[@class='nav-bb']/descendant::div[@class='nav-bb-left']/descendant::a[@id='nav-bb-logo']
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2) http://www.yahoo.com
+    Web Element: Mail link
+
+1.//script[@id='wafer-form-module-config']/following-sibling::header[@id='Header']/child::div[@id='module-header']/descendant::div[@id='ybar']/child::div[@id='ybar-inner-wrap']
+   /descendant::div[@class='_yb_1kek1']/following-sibling::div[@class='_yb_iffim ybar-menu-hover-open']/descendant::span[@class='_yb_pc490 _yb_1u1la']
+2.//div[@id='ybar-inner-wrap']/descendant::span[@class='_yb_pc490 _yb_1u1la']
+3.//div[@id='module-header']/descendant::a[@class='_yb_lxurq']/descendant::span[2]
+4.//div[@id='module-header']/descendant::a[@class='_yb_lxurq']/descendant::span[text()='Mail']
+5.//div[@id='module-header']/descendant::a[@class='_yb_lxurq']/descendant::span[contains(text(),'Mail')]
+6.//div[@id='HPSPON-ad']/preceding::div[@class='_yb_1flsh _yb_1y805 ']/preceding::span[@class='_yb_1rgzx _yb_1h7r9']
+7.//div[@id='HPSPON-ad']/preceding::div[@class='_yb_1flsh _yb_1y805 ']/preceding::span[contains(@class,'_yb_1rgzx _yb_1h7r9')]
+8.//div[@id='HPSPON-ad']/preceding::div[@class='_yb_1flsh _yb_1y805 ']/preceding::span[contains(text(),'Mail')]
+9.//div[@id='HPSPON-ad']/preceding::div[@class='_yb_1flsh _yb_1y805 ']/preceding::span[1]
+10.//div[@id='Masterwrap']/preceding-sibling::div[@id='HPSPON-ad']/preceding::div[@class='_yb_1flsh _yb_1y805 ']/preceding::span[text()='Mail']
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3) http://twitter.com
+   Web Element: Sign-in link inside Button
+
+1.//div[@id='react-root']/descendant::div[@id='layers']/following-sibling::div[@class='css-1dbjc4n r-13qz1uu r-417010']
+  /descendant::div[@class='css-1dbjc4n r-2o02ov']/descendant::span[text()='Sign in']
+2.//div[@id='react-root']/descendant::div[@id='layers']/following-sibling::div[@class='css-1dbjc4n r-13qz1uu r-417010']/descendant::div[@class='css-1dbjc4n r-2o02ov']/descendant::span[3]
+3.//div[@id='react-root']/descendant::div[@id='layers']/following-sibling::div[@class='css-1dbjc4n r-13qz1uu r-417010']/descendant::div[@class='css-1dbjc4n r-2o02ov']
+  /descendant::span[contains(text(),'Sign in')]
+4.//div[@id='react-root']/descendant::span[text()='Sign in']
+5.//div[@id='react-root']/descendant::span[13]
+6.//script[@id='nonce-csp']/preceding::span[19]
+7.//script[@id='nonce-csp']/preceding::span[contains(text(),'Sign in')]
+8.//script[@id='nonce-csp']/preceding::span[text()='Sign in']
+9.//script[@id='nonce-csp']/preceding::div[@class='css-1dbjc4n']/preceding::span[text()='Sign in']
+10.//script[@id='nonce-csp']/preceding::div[@class='css-1dbjc4n']/preceding::span[contains(text(),'Sign in')]
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4) http://facebook.com
+   Web Element: Log-In Button
+
+1.//div[@class='_li']/child::div[@id='globalContainer']/descendant::div[@class='_6luv _52jv']/descendant::button[@name='login']
+2.//div[@class='_li']/child::div[@id='globalContainer']/descendant::div[@class='_6luv _52jv']/descendant::button
+3. //div[@class='_li']/child::div[@id='globalContainer']/descendant::div[@class='_6luv _52jv']/descendant::button[text()='Log In']
+4.//div[@class='_li']/child::div[@id='globalContainer']/descendant::button
+5.//div[@class='_li']/descendant::button[@name='login']
+6.//div[@class='mvl copyright']/preceding-sibling::div[@id='pageFooterChildren']/preceding::a[@class='_sv4']/preceding::div[@id='reg_pages_msg']/preceding::button
+7.//div[@class='mvl copyright']/preceding-sibling::div[@id='pageFooterChildren']/preceding::a[@class='_sv4']/preceding::div[@id='reg_pages_msg']/preceding::button[@name='login']
+8.//div[@class='mvl copyright']/preceding-sibling::div[@id='pageFooterChildren']/preceding::a[@class='_sv4']/preceding::div[@id='reg_pages_msg']/preceding::button[text()='Log In']
+9.//div[@class='mvl copyright']/preceding::button
+10.//div[@class='mvl copyright']/preceding::button[@name='login' and @id='u_0_5_bd']
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5) http://instagram.com
+   Web Element: Sign Up Link
+
+1.//div[@id='BubbleLayer-0DE9E47C-871A-4F90-8440-B190C216800A']/following-sibling::div[@id='mount_0_0_DU']/descendant::div[@class='_aacl _aaco _aacu _aacy _aad6']
+  /descendant::span[@class='_aacl _aaco _aacw _aad0 _aad7']
+2.//div[@id='BubbleLayer-0DE9E47C-871A-4F90-8440-B190C216800A']/following-sibling::div[@id='mount_0_0_DU']/descendant::div[@class='_aacl _aaco _aacu _aacy _aad6']
+  /descendant::span[text()='Sign up']
+3.//div[@id='BubbleLayer-0DE9E47C-871A-4F90-8440-B190C216800A']/following-sibling::div[@id='mount_0_0_DU']/descendant::div[@class='_aacl _aaco _aacu _aacy _aad6']/descendant::span
+4.//div[@id='BubbleLayer-0DE9E47C-871A-4F90-8440-B190C216800A']/following-sibling::div[@id='mount_0_0_DU']/descendant::span[text()='Sign up']
+5.//div[@id='BubbleLayer-0DE9E47C-871A-4F90-8440-B190C216800A']/following-sibling::div[@id='mount_0_0_DU']/descendant::span[8]
+6.//div[@id='fb-root']/preceding::span[@id='ssrb_root_end']/preceding::div[@class='xdt5ytf x78zum5']/preceding::span[@class='_aacl _aaco _aacw _aad0 _aad7']
+7.//div[@id='fb-root']/preceding::span[@id='ssrb_root_end']/preceding::div[@class='xdt5ytf x78zum5']/preceding::span[text()='Sign up']
+8.//div[@id='fb-root']/preceding::span[@id='ssrb_root_end']/preceding::div[@class='xdt5ytf x78zum5']/preceding::span[1]
+9.//div[@id='fb-root']/preceding::span[@id='ssrb_root_end']/preceding::span[contains(text(),'Sign up')]
+10.//div[@id='fb-root']/preceding::span[@id='ssrb_root_end']/preceding::span[4]
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6) http://target.com
+   Web Element: Email or Mobile No text box
+
+1.//div[@id='__next']/descendant::input[1]
+2.//div[@id='__next']/descendant::input[@id='username']
+3.//div[@id='__next']/child::div[@id='skipLinks']/following-sibling::div/descendant::input[@id='username']
+4.//div[@id='__next']/child::div[@id='skipLinks']/following-sibling::div/descendant::input[1]
+5.//div[@id='__next']/descendant::input[@id='username' and @name='username']//div[@id='__next']/descendant::input[@id='username' and @name='username']
+6.//script[@id='__NEXT_DATA__']/preceding-sibling::script/preceding::h2[@id='footerHeader']/preceding::input[3]
+7.//script[@id='__NEXT_DATA__']/preceding-sibling::script/preceding::h2[@id='footerHeader']/preceding::input[@id='username']
+8.//script[@id='__NEXT_DATA__']/preceding-sibling::script/preceding::h2[@id='footerHeader']/preceding::input[@id='username' and @name='username']
+9.//script[@id='__NEXT_DATA__']/preceding::input[@id='username' and @name='username']
+10.//script[@id='__NEXT_DATA__']/preceding::input[3]
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7) http://walmart.com
+   Web Element: Add to Cart Button
+
+1.//div[@id='__next']/descendant::div[@class='flex items-center justify-center dn-hdkp']/following-sibling::div[@class='dn db-hdkp relative']
+  /following-sibling::div[@class='undefined']/descendant::i[@class='ld ld-Cart white mr1']
+2.//div[@id='__next']/descendant::div[@class='flex items-center justify-center dn-hdkp']/following-sibling::div[@class='dn db-hdkp relative']
+  /following-sibling::div[@class='undefined']/descendant::i
+3.//div[@id='__next']/descendant::i[@class='ld ld-Cart white mr1']
+4.//div[@id='__next']/descendant::i[13]
+5.//div[@class='undefined']/descendant::i
+6.//script[@id='__NEXT_DATA__']/preceding::div[@class='flex flex-column flex-auto relative z-0']/preceding::i[@class='ld ld-Cart white mr1']
+7.//script[@id='__NEXT_DATA__']/preceding::div[@class='flex flex-column flex-auto relative z-0']/preceding::i[1]
+8.//script[@id='__NEXT_DATA__']/preceding::i[1]
+9.//script[@id='__NEXT_DATA__']/preceding::i[@class='ld ld-Cart white mr1']
+10.//iframe[@id='tmx_tags_iframe']/preceding-sibling::script[@id='__NEXT_DATA__']/preceding::i[@class='ld ld-Cart white mr1']
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+8) http://cnn.com
+   Web Element: Login Button on Homepage
+
+1.//button[@id='menuButton']/following-sibling::div[@class='Flex-sc-1sqrs56-0 indexes__AccountHeaderWrap-nujtvs-15 briuCW']/child::div[@id='account-icon-button']
+  /descendant::span[@class='Text-sc-1amvtpj-0-span kDWOQ']
+2.//button[@id='menuButton']/following-sibling::div[@class='Flex-sc-1sqrs56-0 indexes__AccountHeaderWrap-nujtvs-15 briuCW']/child::div[@id='account-icon-button']/descendant::span
+3.//button[@id='menuButton']/following-sibling::div[@class='Flex-sc-1sqrs56-0 indexes__AccountHeaderWrap-nujtvs-15 briuCW']/child::div[@id='account-icon-button']
+  /descendant::span[text()='Log In']
+4.//button[@id='menuButton']/following-sibling::div[@class='Flex-sc-1sqrs56-0 indexes__AccountHeaderWrap-nujtvs-15 briuCW']/descendant::span[contains(text(),'Log In')]
+5.//div[@id='account-icon-button']/descendant::span[contains(text(),'Log In')]
+6.//iframe[@name='__uspapiLocator']/preceding-sibling::div[@class='OUTBRAIN']/preceding-sibling::div[@class='pg-no-rail pg-wrapper ']/preceding::span[@class='Text-sc-1amvtpj-0-span kDWOQ']
+7.//iframe[@name='__uspapiLocator']/preceding-sibling::div[@class='OUTBRAIN']/preceding-sibling::div[@class='pg-no-rail pg-wrapper ']/preceding::span[text()='Log In']
+8.//iframe[@name='__uspapiLocator']/preceding-sibling::div[@class='OUTBRAIN']/preceding-sibling::div[@class='pg-no-rail pg-wrapper ']
+  /preceding::div[@class='Grid-sc-1kcyc0j-0 sc-iBEsjs sc-chbbiW TPaxR']/preceding::span[1]
+9.//iframe[@name='__uspapiLocator']/preceding::span[1]
+10.//iframe[@name='__uspapiLocator']/preceding::span[@class='Text-sc-1amvtpj-0-span kDWOQ']
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+9) http://paypal.com
+   Web Element: Personal link in the Header
+
+1.//div[@id='app-element-mountpoint']/child::div[@id='document-body']/descendant::div[@class='menu-button-wrapper']/following-sibling::nav[@id='main-menu']
+  /descendant::a[@id='header-personal']
+2.//div[@id='app-element-mountpoint']/child::div[@id='document-body']/descendant::div[@class='menu-button-wrapper']/following-sibling::nav[@id='main-menu']/descendant::a[text()='Personal']
+3.//div[@id='app-element-mountpoint']/child::div[@id='document-body']/descendant::div[@class='menu-button-wrapper']/following-sibling::nav[@id='main-menu']/descendant::a[1]
+4.//div[@id='app-element-mountpoint']/child::div[@id='document-body']/descendant::a[text()='Personal']
+5.//div[@id='app-element-mountpoint']/descendant::a[@id='header-personal']
+6.//section[@class='footer-disclosure grid']/preceding-sibling::div[@class='document-body-root body-page']/preceding::div[@id='header-buttons']/preceding::a[@id='header-personal']
+7.//section[@class='footer-disclosure grid']/preceding-sibling::div[@class='document-body-root body-page']/preceding::div[@id='header-buttons']/preceding::a[text()='Personal']
+8.//section[@class='footer-disclosure grid']/preceding-sibling::div[@class='document-body-root body-page']/preceding::a[@id='header-personal']
+9.//section[@class='footer-disclosure grid']/preceding::a[@id='header-personal']
+10.//section[@class='footer-disclosure grid']/preceding::a[contains(text(),'Personal')]
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+10) http://alibaba.com
+    Web Element: Orders link on Homepage
+
+1.//div[@class='sc-hd-row sc-hd-main ']/child::div[@class='sc-hd-cell sc-hd-m-notify sc-hd-float-r sc-hd-text-right']
+  /child::div[@class='J-hd-m-notify-tab sc-hd-hide-s sc-hd-ms-tab sc-hd-ms-order J-sc-hd-ms-order']/descendant::a[contains(text(),'Orders')]
+2.//div[@class='sc-hd-row sc-hd-main ']/child::div[@class='sc-hd-cell sc-hd-m-notify sc-hd-float-r sc-hd-text-right']
+  /child::div[@class='J-hd-m-notify-tab sc-hd-hide-s sc-hd-ms-tab sc-hd-ms-order J-sc-hd-ms-order']/descendant::a[2]
+3.//div[@class='sc-hd-row sc-hd-main ']/child::div[@class='sc-hd-cell sc-hd-m-notify sc-hd-float-r sc-hd-text-right']
+  /child::div[@class='J-hd-m-notify-tab sc-hd-hide-s sc-hd-ms-tab sc-hd-ms-order J-sc-hd-ms-order']/descendant::a[text()='Orders']
+4.//div[@class='sc-hd-row sc-hd-main ']/child::div[@class='sc-hd-cell sc-hd-m-notify sc-hd-float-r sc-hd-text-right']/descendant::a[text()='Orders']
+5.//div[@class='sc-hd-row sc-hd-main ']/descendant::a[text()='Orders']
+6.//div[@id='header-alitalk']/preceding::div[@class='sc-hd-row sc-hd-link']/preceding::div[@class='sc-hd-ms-panel sc-hd-ms-last']/preceding::a[text()='Orders']
+7.//div[@id='header-alitalk']/preceding::div[@class='sc-hd-row sc-hd-link']/preceding::div[@class='sc-hd-ms-panel sc-hd-ms-last']/preceding::a[contains(text(),'Orders')]
+8.//div[@id='header-alitalk']/preceding::div[@class='sc-hd-row sc-hd-link']/preceding::a[contains(text(),'Orders')]
+9.//div[@id='header-alitalk']/preceding::a[contains(text(),'Orders')]
+10.//div[@class='sc-hd-ms-panel sc-hd-ms-last']/preceding::a[text()='Orders']
+
+
+

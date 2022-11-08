@@ -1,0 +1,19 @@
+https://www.facebook.com
+driver.getTitle()
+driver.getCurrentUrl()
+
+Create New Account button - isDisplayed(), isEnabled()
+WebElement = 
+right click is not working
+Press Ctrl+Shift+I
+------------------------------------------------------
+Advanced Xpaths
+10 different websites
+each website choose 1 WebElement
+each webelement will have 10 xpaths
+
+= 100 Advanced Xpaths
+-------------------------------------------------------
+
+
+

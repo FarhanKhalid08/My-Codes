@@ -1,0 +1,14 @@
+https://amazon.com
+Web Element: Amazon Logo
+
+
+1.//div[@id='a-page']/child::div[@id='navbar-backup-backup']/child::div[@class='nav-bb']/child::div[@class='nav-bb-left']/descendant::a
+2.//div[@id='a-page']/descendant::a[@id='nav-bb-logo']
+3.//div[@id='a-page']/child::div[@id='navbar-backup-backup']/child::div[@class='nav-bb']/child::div[@class='nav-bb-left']/child::a[@id='nav-bb-logo']
+4.//div[@id='a-page']/child::div[@id='navbar-backup-backup']/child::div[@class='nav-bb']/child::div[@class='nav-bb-left']/child::a
+5.//div[@id='a-page']/descendant::a[1]
+6.//div[@id='be']/preceding-sibling::footer[@class='nav-bb-footer']/preceding-sibling::div[@id='pageContent']/preceding::a[4]
+7.//div[@id='be']/preceding-sibling::footer[@class='nav-bb-footer']/preceding-sibling::div[@id='pageContent']/preceding::a[@id='nav-bb-logo']
+8.//div[@id='be']/preceding::a[31]
+9.//div[@id='be']/preceding::a[@id='nav-bb-logo']
+10.//div[@id='a-page']/descendant::div[@id='navbar-backup-backup']/descendant::div[@class='nav-bb']/descendant::div[@class='nav-bb-left']/descendant::a[@id='nav-bb-logo']

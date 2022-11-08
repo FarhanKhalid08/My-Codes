@@ -1,0 +1,15 @@
+Assignment
+
+Create 25 different Classes
+use 25 urls for Chrome
+use 25 urls for firefox
+-----------------------------------------
+
+int i =1;
+int j = ++i - --i;
+int k = j-- - --i + i-- - --j;
+int l = --k - k-- + i-- - --i + j++ - --j;
+------------------------------------------
+
+
+seleniumpanda@gmail.com

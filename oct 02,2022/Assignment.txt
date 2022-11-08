@@ -1,0 +1,8 @@
+Assignment: - 
+
+1. Create a Java Project and name it as practice_JAVA
+2. Create a package and name it as java_basic_assignment
+3. Create a Class and name it as My_First_Assignment
+4. Inside the main method write 20 System.out.println() statements and 20 System.out.print() statements
+5. Create another Class in the same pacakge and name it as My_First_Assignment_1
+6. Inside this class create 10 int, 10 boolean, 10 char, 10 double and use System.out.println() statements after seeing my code

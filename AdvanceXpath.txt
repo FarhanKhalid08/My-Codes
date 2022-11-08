@@ -1,0 +1,2 @@
+//div[@id='footer-website']/preceding-sibling::main[@class='wrapper']/preceding::ul[@id='mobile-menu']/preceding::img[2]
+//div[@id='topcontrol']/preceding-sibling::div[@id='footer-website']/preceding-sibling::main[@class='wrapper']/preceding::li[@id='hamburger']/preceding::img[1]
